@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <% include partials/head %>
+  <body>
+    <h1>Dashboard</h1>
+    <p>Share and send files with friends</p>
+
+    <div class="files">
+      <ul class="filenames">
+      </ul>
+    </div>
+
+    <form action="/file/upload" method="post" enctype="multipart/form-data">
+      <input type="file" name="displayImage" />
+      <input type="submit" name="" value="Submit">
+    </form>
+
+    <script type="text/javascript" src="javascripts/filehandler.js"></script>
+  </body>
+</html>
