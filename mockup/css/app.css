@@ -1,0 +1,53 @@
+html {
+  font-size:16px;
+}
+
+body {
+  padding-top:1em;
+}
+
+.search-container {
+  text-align:left;
+}
+
+.searchbar {
+  max-width:262px;
+}
+
+ul.files li {
+  padding:1em;
+  border-radius:10px;
+  color:#grey;
+}
+
+ul.files li:hover{
+  color: #1779ba;
+  cursor:default;
+}
+
+ul.files li i {
+  font-size:2em;
+}
+
+.menu.files .selected {
+  background-color:#1779ba;
+  color:#fff;
+}
+
+.tabs .tabs-title .multi-select-toggle {
+  padding: 1em 0 0 0;
+}
+
+.tabs .tabs-title a{
+  font-size:1em;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
